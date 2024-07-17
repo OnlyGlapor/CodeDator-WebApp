@@ -1,0 +1,49 @@
+.container {
+    width: 60%;
+    /* background-color: green; */
+    padding: 20px;
+}
+
+.content {
+    width: 80%;
+    margin-top: 2em;
+}
+
+.content button {
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
+.content video {
+    background-color: #000;
+    width: 100%;
+    height: fit-content;
+}
+
+.content .exerciseBox {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.content textarea {
+    margin-top: 10px;
+    width: 90%;
+    height: 150px;
+}
+
+.exerciseBox .submitButton {
+    margin-top: 2em;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 1em;
+}
+
+.bottom button {
+    padding: 5px 10px;
+}

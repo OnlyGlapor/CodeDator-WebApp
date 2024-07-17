@@ -1,0 +1,108 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 70%;
+    height: 450px;
+    background-color: #fff;
+    box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.main .leftCard {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h2 {
+    margin-top: 20px;
+}
+
+.tablist {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.tabItem {
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tabItem:hover{
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.activeTab {
+    background-color: purple !important;
+    color: #fff;
+}
+
+
+
+.rightCard {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #888;
+    padding: 3em;
+}
+
+.socialList {
+    width: 100%;
+    margin-top: 2em;
+    padding: 0 20px;
+}
+
+.socialList button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.socialList p {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2em;
+}
+.backButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}

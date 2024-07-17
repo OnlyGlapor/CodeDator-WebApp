@@ -1,0 +1,50 @@
+.container {
+    width: 95%;
+    /* background-color: green; */
+    border: 1px solid #888;
+    border-radius: 10px;
+}
+
+.container .top {
+    width: 100%;
+    height: 150px;
+    background-color: purple;
+    position: relative;
+}
+
+.top .imgWrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -20%;
+    left: 44%;
+    border: 1px solid #888;
+}
+
+.userInfo {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: greenyellow; */
+    margin: auto;
+    margin-top: 3.5em;
+    padding-bottom: 20px;
+}
+
+.userInfo .learningInfo {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+    gap: 10px;
+    margin-top: 2em;
+    width: 100%;
+}
+
+.userInfo .infoItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

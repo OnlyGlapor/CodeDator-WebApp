@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .navMenu ul {
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+}
+
+.navMenu li {
+    list-style: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.navMenu ul li:hover {
+    color: purple;
+    transition: all 0.5s;
+}
+
+.right :nth-child(1){
+    margin-right: 20px;
+    border: none;
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.right :nth-child(1):hover {
+    background-color: rgba(225, 225, 225, 0.9);
+}
+
+.right :nth-child(2){
+    background-color: purple;
+    color: #fff;
+}
+
+.right :nth-child(2):hover {
+    background-color:rgb(128, 0, 128, 0.9);
+}
+
+.container button {
+    padding: 5px 20px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.active {
+    color: purple;
+    transition: all 0.5s;
+}
+
+.active ::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 20%;
+    height: 5px;
+    background-color: purple;
+    border-radius: 20px;
+    left: 40%;
+    bottom: 10%;
+}
+
+.inactive {
+    color: black;
+}

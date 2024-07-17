@@ -1,0 +1,26 @@
+.container {
+    width: 95%;
+    padding: 20px;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-top: 2em;
+    color: #fff;
+}
+
+.container .searchBox {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.searchBox input {
+    margin-left: 5px;
+    outline: none;
+    border: none;
+}

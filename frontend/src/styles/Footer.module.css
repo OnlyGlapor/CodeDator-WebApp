@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #000;
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+}
+
+.container .right {
+    display: flex;
+    align-items: center;
+}
+
+.right .menu {
+    margin-right: 30px;
+}
+
+.right .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    text-decoration: underline;
+}
+
+.iconList :nth-child(2n) {
+    margin: 0 10px;
+}
+
+.iconList :nth-child(1n) {
+    cursor: pointer;
+}
+
+.iconList :nth-child(1n):hover {
+    box-shadow: 0 5px 25px purple;
+}

@@ -1,0 +1,45 @@
+.container {
+    width: 95%;
+    margin-top: 20px;
+}
+
+.list {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.itemContainer {
+    width: 22%;
+    background-color: inherit;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.itemContainer:hover {
+    background-color: #eee;
+}
+
+.itemContainer .imgWrapper {
+    width: 90%;
+    height: 100px;
+    background-color: #eee;
+    margin: auto;
+
+}
+
+.textWrapper :first-child {
+    height: 50px;
+}
+
+.itemContainer .textWrapper :nth-child(1n){
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5px;
+}

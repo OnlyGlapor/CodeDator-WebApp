@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.container :nth-child(even){
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.topicItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.topicItem:hover {
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.topicItem .right {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: transparent;
+}
+
+.right p {
+    margin-right: 10px;
+}
+
+.right .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #000;
+}
+
+.right .progressbar {
+    width: 60%;
+    height: 10px;
+    background-color: #888;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.progress::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: purple;
+}

@@ -1,0 +1,28 @@
+.container {
+    width: 20%;
+    position: sticky;
+    top: 0;
+}
+
+.newIntro {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 3em;
+    background-color: #eee;
+}
+.searchBox input {
+    margin-left: 10px;
+    flex: 1;
+    border: none;
+    background-color: inherit;
+    outline: none;
+}

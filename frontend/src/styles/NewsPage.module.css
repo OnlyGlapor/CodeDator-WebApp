@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.heading {
+    padding: 20px;
+}
+
+.heading :nth-child(3) {
+    margin-top: 10px;
+}

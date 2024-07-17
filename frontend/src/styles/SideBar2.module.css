@@ -1,0 +1,8 @@
+.container {
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    padding-top: 2em;
+}

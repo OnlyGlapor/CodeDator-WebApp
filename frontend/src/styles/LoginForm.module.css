@@ -1,0 +1,75 @@
+.formContainer {
+    width: 70%;
+    margin-top: 2em;
+}
+
+form {
+    width: 100%;
+}
+
+.formContainer form .formInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #fff;
+    border: 1px solid #888;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.formInput input {
+    margin-left: 10px;
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.formContainer .error {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.formContainer form :nth-child(3){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+}
+
+.formContainer .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottom :first-child {
+    display: flex;
+}
+
+.bottom :first-child input {
+    margin-right: 10px;
+}
+
+.bottom .forgotButton {
+    cursor: pointer;
+}
+
+.forgotButton:hover {
+    text-decoration: underline;
+}
+
+.loginButton {
+    background-color: purple;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
